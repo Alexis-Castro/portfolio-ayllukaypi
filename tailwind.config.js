@@ -10,6 +10,9 @@ module.exports = {
         'azul-claro': '#2ee5d8',
         'azul-oscuro': '#062e51',
       },
+      backgroundImage: {
+        'logo-page': "url('/src/assets/img/logos.svg')",
+      }
     },
   },
   plugins: [],
