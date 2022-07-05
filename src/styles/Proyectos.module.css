@@ -1,0 +1,9 @@
+.proyectos {
+   background: rgb(6, 46, 81);
+   
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+
+   clip-path: polygon(0 0,100% 0%,100% 75%,90% 100%,90% 88%,0 88%);
+}
