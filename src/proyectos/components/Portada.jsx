@@ -2,7 +2,7 @@ import { Logos } from '../../components/Logos';
 import { Section } from '../../components/Section';
 import styles from '../../styles/Header.module.css';
 
-export const Portada = () => {
+export const Portada = ({ proyecto }) => {
    return (
       <Section className={`${styles.header} bg-azul-oscuro min-h-screen`}>
          <Logos className={"right-12 grayscale"} />
@@ -19,7 +19,7 @@ export const Portada = () => {
                            Un vistazo
                         </h2>
                         <p className="text-4xl uppercase font-bold">
-                           a nuestro trabajo
+                           a {proyecto}
                         </p>
                      </div>
                   </div>

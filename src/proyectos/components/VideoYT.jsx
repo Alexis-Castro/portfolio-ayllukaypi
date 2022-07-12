@@ -2,11 +2,11 @@ import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 
 
-export const VideoYT = () => {
+export const VideoYT = ({id}) => {
    return (
       <>
          <LiteYouTubeEmbed 
-            id='qWbvm8kpfTs'
+            id={id}
             
             title='Villa los Parques'
             playlist={false}

@@ -1,8 +1,10 @@
 import { Logos } from '../../components/Logos';
 import { Section } from '../../components/Section';
+import { Fotos360 } from './Fotos360';
 import { VideoYT } from './VideoYT';
 
-export const Inicio = () => {
+export const Inicio = ({ proyecto, frase, descripcion, id, src360 }) => {
+   console.log(src360);
    return (
       <Section className={`min-h-screen mb-8`}>
          <Logos className={"left-16 grayscale -z-10"} />
@@ -12,15 +14,15 @@ export const Inicio = () => {
                   <span className='inline-block mr-2'>
                      <img src={"../src/assets/img/triangulo.svg"} width="23" alt="" />
                   </span>
-                  Villa los Parques
-                  <p className="text-4xl uppercase font-bold">El paraíso verde que mereces</p>
+                  {proyecto}
+                  <p className="text-4xl uppercase font-bold">{frase}</p>
                </h2>
 
             </div>
 
             <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none mb-5">
                <figure className='block relative mb-1'>
-                  <VideoYT />
+                  <VideoYT id={id}/>
                </figure>
                <div className='bg-azul-oscuro p-2'>
                   <p className='text-gray-200 text-right'>Dale un vistazo a este video y conoce más sobre el proyecto...</p>
@@ -29,12 +31,18 @@ export const Inicio = () => {
 
             <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none mb-5">
                <p className='text-azul-oscuro text-justify text-2xl'>
-                  Un proyecto ideal para tu casa de campo, rodeado de áreas verdes, considerado el "último bastión moche".
+                  {descripcion}
                </p>
             </div>
 
             <div className="grid grid-cols-2 mb-5">
-               <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none">
+               <Fotos360 
+                  src={src360}
+               />
+               <Fotos360 
+                  src={src360}
+               />
+               {/* <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none">
                   <figure className='block relative'>
                      <picture>
                         <img src={"../src/assets/img/villa-los-parques-5.webp"} width="100%" alt="" />
@@ -49,7 +57,7 @@ export const Inicio = () => {
 
                      </picture>
                   </figure>
-               </div>
+               </div> */}
             </div>
 
             <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none">
