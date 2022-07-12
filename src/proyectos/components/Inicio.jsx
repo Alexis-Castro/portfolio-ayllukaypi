@@ -5,7 +5,7 @@ import { VideoYT } from './VideoYT';
 export const Inicio = () => {
    return (
       <Section className={`min-h-screen mb-8`}>
-         <Logos className={"left-12 grayscale -z-10"} />
+         <Logos className={"left-16 grayscale -z-10"} />
          <div className="container mx-auto">
             <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none mb-12">
                <h2 className='uppercase text-6xl font-bold text-azul-oscuro text-center'>

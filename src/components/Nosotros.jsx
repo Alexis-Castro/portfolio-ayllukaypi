@@ -5,7 +5,7 @@ import { Logos } from '../components/Logos'
 export const Nosotros = () => {
    return (
       <>
-         <div className='relative h-screen'>
+         <div className='relative min-h-screen'>
             <Logos className={"left-12 "} />
             <Section className={`${styles2.nosotros} bg-azul-oscuro z-0`}>
 
@@ -29,7 +29,7 @@ export const Nosotros = () => {
 
             </Section>
 
-            <Section className={"h-[50vh]"}>
+            <Section className={""}>
                <div className="container mx-auto">
                   <div className='p-2 block basis-0 flex-grow flex-shrink md:flex-none text-justify'>
                      <p className='text-3xl text-azul-oscuro mb-5 '>

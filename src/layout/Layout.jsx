@@ -7,7 +7,7 @@ import styles from '../styles/Header.module.css'
 export const Layout = () => {
    return (
       <>
-         <Section className={`${styles.header} bg-azul-oscuro h-screen`}>
+         <Section className={`${styles.header} bg-azul-oscuro min-h-screen`}>
             <Logos className={"right-12 grayscale"} />
             <div className="container mx-auto">
                <div className='flex flex-col justify-between h-[calc(100vh-7rem)]'>
