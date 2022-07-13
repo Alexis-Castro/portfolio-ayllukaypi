@@ -14,7 +14,7 @@ export const Portada = ({ proyecto }) => {
                      <div className='mb-5'>
                         <h2 className='uppercase text-7xl font-bold'>
                            <span className='inline-block mr-2'>
-                              <img src={"../src/assets/img/triangulo.svg"} width="25" alt="" />
+                              <img src={"/assets/img/triangulo.svg"} width="25" alt="" />
                            </span>
                            Un vistazo
                         </h2>
@@ -30,7 +30,7 @@ export const Portada = ({ proyecto }) => {
                   <div className="block basis-0 flex-grow flex-shrink md:flex-none p-2">
                      <p className='text-white'>
                         <span className='inline-block mr-2'>
-                           <img src={"../src/assets/img/triangulo.svg"} width="7" alt="" />
+                           <img src={"/assets/img/triangulo.svg"} width="7" alt="" />
                         </span>
                         Aquí hogar, Aquí familia
                      </p>
@@ -39,7 +39,7 @@ export const Portada = ({ proyecto }) => {
                   <div className="block basis-0 flex-grow flex-shrink md:flex-none p-2">
                      <figure className='block z-20'>
                         <picture>
-                           <img src={"../../src/assets/img/logo-gris-2.png"} width="120" alt="logo" />
+                           <img src={"..//assets/img/logo-gris-2.png"} width="120" alt="logo" />
                         </picture>
                      </figure>
                   </div>

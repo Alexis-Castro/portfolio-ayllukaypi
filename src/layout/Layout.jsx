@@ -14,7 +14,7 @@ export const Layout = () => {
                   <div className='flex items-center justify-center'>
                      <div className=''>
                         <picture>
-                           <img src={"../src/assets/img/ayllu-kaypi.png"} width="200" alt="logo" />
+                           <img src={"/assets/img/ayllu-kaypi.png"} width="200" alt="logo" />
                            <figcaption className="text-white font-bold text-center text-6xl">
                               Ayllu <br /> Kaypi
                            </figcaption>
@@ -33,7 +33,7 @@ export const Layout = () => {
                         </div>
                         <p className="font-medium">
                            <span className='inline-block mr-2'>
-                              <img src={"../src/assets/img/triangulo.svg"} width="7" alt="" />
+                              <img src={"/assets/img/triangulo.svg"} width="7" alt="" />
                            </span>
                            Aquí hogar, aquí familia.
                         </p>

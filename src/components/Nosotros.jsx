@@ -15,7 +15,7 @@ export const Nosotros = () => {
                         <div className='p-2 block basis-0 flex-grow flex-shrink md:flex-none w-2/3'>
                            <h2 className='uppercase text-5xl font-bold text-azul-oscuro z-20'>
                               <span className='inline-block mr-1'>
-                                 <img src={"../src/assets/img/triangulo.svg"} width="16" alt="" />
+                                 <img src={"/assets/img/triangulo.svg"} width="16" alt="" />
                               </span>
                               Primero <span className='text-xl'>te contamos</span> ¡quienes somos!
                            </h2>
@@ -55,7 +55,7 @@ export const Nosotros = () => {
                         </h2>
                         <p className="font-medium text-azul-oscuro">
                            <span className='inline-block mr-2'>
-                              <img src={"../src/assets/img/triangulo.svg"} width="7" alt="" />
+                              <img src={"/assets/img/triangulo.svg"} width="7" alt="" />
                            </span>
                            Aquí hogar, aquí familia.
                         </p>
@@ -63,7 +63,7 @@ export const Nosotros = () => {
 
                      <div className='p-2 block basis-0 flex-grow flex-shrink md:flex-none'>
                         <picture>
-                           <img src={"../src/assets/img/logo-azul-2.png"} width="80" alt="logo" />
+                           <img src={"/assets/img/logo-azul-2.png"} width="80" alt="logo" />
                         </picture>
                      </div>
 

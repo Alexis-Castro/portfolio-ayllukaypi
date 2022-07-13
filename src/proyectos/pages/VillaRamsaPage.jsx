@@ -13,7 +13,7 @@ export const VillaRamsaPage = () => {
             frase={"Tu inversión inteligente"}
             descripcion={'Un proyecto ubicado en una zona de gran expansión inmobiliaria, con cercanía a la histórica playa Naylamp.'}
             id={"qWbvm8kpfTs"}
-            src360={"../src/assets/img/villa-los-parques-5.webp"}
+            src360={"/assets/img/villa-los-parques-5.webp"}
          />
 
          <Caracteristicas 

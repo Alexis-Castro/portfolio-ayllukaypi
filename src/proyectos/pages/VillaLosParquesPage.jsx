@@ -13,7 +13,7 @@ export const VillaLosParquesPage = () => {
             frase={"El paraíso verde que mereces"}
             descripcion={'Un proyecto ideal para tu casa de campo, rodeado de áreas verdes, considerado el "último bastión moche".'}
             id={"qWbvm8kpfTs"}
-            src360={"../src/assets/img/villa-los-parques-5.webp"}
+            src360={"/assets/img/villa-los-parques-5.webp"}
          />
 
          <Caracteristicas 

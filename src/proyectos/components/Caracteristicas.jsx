@@ -13,7 +13,7 @@ export const Caracteristicas = ({ archivoMapa }) => {
                   <p className='text-azul-claro -rotate-90 -ml-8 text-5xl'>Este</p>
                   <p className='text-azul-oscuro -ml-6 text-6xl'>Proyecto cuenta con:</p>
                   <figure>
-                     <img src={"../../src/assets/img/logo-azul-2.png"} width="125" alt="" />
+                     <img src={"..//assets/img/logo-azul-2.png"} width="125" alt="" />
                   </figure>
                </div>
 
@@ -42,15 +42,15 @@ export const Caracteristicas = ({ archivoMapa }) => {
                      <figure className="block relative">
                         <picture>
                            <source 
-                              srcSet={`../../src/assets/img/${archivoMapa}.avif`} 
+                              srcSet={`..//assets/img/${archivoMapa}.avif`} 
                               type='image/avif'
                            />
                            <source 
-                              srcSet={`../../src/assets/img/${archivoMapa}.webp`} 
+                              srcSet={`..//assets/img/${archivoMapa}.webp`} 
                               type='image/webp'
                            />
                            <img 
-                              src={`../../src/assets/img/${archivoMapa}.png`} 
+                              src={`..//assets/img/${archivoMapa}.png`} 
                               width="100%" 
                               className='border-2' 
                               alt="Ubicación del proyecto" 
