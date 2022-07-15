@@ -1,7 +1,12 @@
+import { Contacto } from '../components/Contacto'
+import { Documentos } from '../components/Documentos'
+import { InversionRentabilidad } from '../components/InversionRentabilidad'
+import { Legal } from '../components/Legal'
 import { Logos } from '../components/Logos'
 import { Nosotros } from '../components/Nosotros'
 import { Proyectos } from '../components/Proyectos'
 import { Section } from '../components/Section'
+import { Ubicacion } from '../components/Ubicacion'
 import styles from '../styles/Header.module.css'
 
 export const Layout = () => {
@@ -33,7 +38,7 @@ export const Layout = () => {
                         </div>
                         <p className="font-medium">
                            <span className='inline-block mr-2'>
-                              <img src={"/assets/img/triangulo.svg"} width="7" alt="" />
+                              <img src={"/assets/img/triangulo.svg"} width="7" alt="triangulo" />
                            </span>
                            Aquí hogar, aquí familia.
                         </p>
@@ -54,6 +59,16 @@ export const Layout = () => {
          <Nosotros />
 
          <Proyectos />
+
+         <Legal />
+
+         <Documentos />
+
+         <Ubicacion />
+
+         <InversionRentabilidad />
+
+         <Contacto />
 
          {/* <Section className={"bg-slate-400"}>
             <div className="container mx-auto">

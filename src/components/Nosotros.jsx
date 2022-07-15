@@ -45,7 +45,7 @@ export const Nosotros = () => {
             </Section>
          </div>
 
-         <Section className={"bg-gray-300 h-screen"}> 
+         <Section className={"bg-gray-300 min-h-screen"}> 
             <div className="container mx-auto">
                <div className='flex flex-col justify-between '>
                   <div className="flex items-center justify-between">
