@@ -1,13 +1,12 @@
-import { Routes, Route, Link } from "react-router-dom";
-import { VillaLosParquesPage } from "../pages/VillaLosParquesPage";
-import { VillaRamsaPage } from "../pages/VillaRamsaPage";
+import { Routes, Route } from "react-router-dom";
+import { VillaLosParquesPage, VillaRamsaPage } from "../pages";
 
 export const ProyectosRoutes = () => {
    return (
       <>
-         <Routes>
-            <Route path="villa-los-parques" element={ <VillaLosParquesPage /> }/>
-            <Route path="villa-ramsa" element={ <VillaRamsaPage />} />
+         <Routes >
+            <Route path="/villa-los-parques" element={<VillaLosParquesPage />} />
+            <Route path="/villa-ramsa" element={<VillaRamsaPage />} />
 
          </Routes>
       </>

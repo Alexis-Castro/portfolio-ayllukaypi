@@ -3,8 +3,8 @@ import { Section } from '../../components/Section';
 import { Fotos360 } from './Fotos360';
 import { VideoYT } from './VideoYT';
 
-export const Inicio = ({ proyecto, frase, descripcion, id, src360 }) => {
-   console.log(src360);
+export const Inicio = ({ proyecto, frase, descripcion, id, archivo360 }) => {
+
    return (
       <Section className={`min-h-screen mb-8`}>
          <Logos className={"left-16 grayscale -z-10"} />
@@ -37,10 +37,10 @@ export const Inicio = ({ proyecto, frase, descripcion, id, src360 }) => {
 
             <div className="grid grid-cols-2 mb-5">
                <Fotos360 
-                  src={src360}
+                  archivoFoto={archivo360}
                />
                <Fotos360 
-                  src={src360}
+                  archivoFoto={archivo360}
                />
                {/* <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none">
                   <figure className='block relative'>

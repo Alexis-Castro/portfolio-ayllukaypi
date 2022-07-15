@@ -1,9 +1,12 @@
 import { Logos } from '../../components/Logos'
 import { Section } from '../../components/Section'
-import Spotlight from "spotlight.js";
+import "spotlight.js";
 import { Link } from 'react-router-dom';
+import { ItemGaleria } from './ItemGaleria';
 
-export const Galeria = () => {
+export const Galeria = ({ fotos }) => {
+
+   // console.log(fotos);
 
    return (
       <Section className={"min-h-screen"}>
@@ -23,50 +26,91 @@ export const Galeria = () => {
 
             </div>
 
-            <div className='p-2 block basis-0 flex-grow flex-shrink md:flex-none'>
-               <figure className="block relative">
-                  <a
-                     href={"..//assets/img/villa-los-parques-2.webp"}
-                     className="block spotlight"
-                  >
-                     <picture>
-                        <source
-                           srcSet={"..//assets/img/villa-los-parques-2.avif"}
-                           type='image/avif'
-                        />
-                        <source
-                           srcSet={"..//assets/img/villa-los-parques-2.webp"}
-                           type='image/webp'
-                        />
-                        <img
-                           src={"..//assets/img/villa-los-parques-2.png"}
-                           width="100%"
-                           alt="Ubicación del proyecto"
-                        />
-                     </picture>
 
-                  </a>
-               </figure>
-            </div>
+            <div className="grid grid-cols-2 ">
 
-            <div className="grid grid-cols-2 grid-rows-2 ">
-               <div className='p-2 block basis-0 flex-grow flex-shrink md:flex-none'>
+               {
+                  fotos.map(({ nombreArchivo, width, height, alt} , key) => {
+                     return (
+                        <ItemGaleria
+                           key={key}
+                           nombreArchivo={nombreArchivo}
+                           width={width}
+                           height={height}
+                           alt={alt}
+                        />
+                     )
+                  })
+               }
+
+               {/* <div className='p-2 block basis-0 flex-grow flex-shrink md:flex-none col-span-2'>
                   <figure className="block relative">
                      <a
-                        href={"..//assets/img/villa-los-parques-3.webp"}
+                        href={"/assets/img/villa-los-parques-2.webp"}
                         className="block spotlight"
                      >
                         <picture>
                            <source
-                              srcSet={"..//assets/img/villa-los-parques-3.avif"}
+                              srcSet={"/assets/img/villa-los-parques-2.avif"}
                               type='image/avif'
                            />
                            <source
-                              srcSet={"..//assets/img/villa-los-parques-3.webp"}
+                              srcSet={"/assets/img/villa-los-parques-2.webp"}
                               type='image/webp'
                            />
                            <img
-                              src={"..//assets/img/villa-los-parques-3.png"}
+                              src={"/assets/img/villa-los-parques-2.png"}
+                              width="100%"
+                              alt="Ubicación del proyecto"
+                           />
+                        </picture>
+
+                     </a>
+                  </figure>
+               </div>
+
+               <div className='p-2 block basis-0 flex-grow flex-shrink md:flex-none'>
+                  <figure className="block relative">
+                     <a
+                        href={"/assets/img/villa-los-parques-3.webp"}
+                        className="block spotlight"
+                     >
+                        <picture>
+                           <source
+                              srcSet={"/assets/img/villa-los-parques-3.avif"}
+                              type='image/avif'
+                           />
+                           <source
+                              srcSet={"/assets/img/villa-los-parques-3.webp"}
+                              type='image/webp'
+                           />
+                           <img
+                              src={"/assets/img/villa-los-parques-3.png"}
+                              width="100%"
+                              alt="Foto del proyecto"
+                           />
+                        </picture>
+                     </a>
+                  </figure>
+               </div>
+
+               <div className='p-2 block basis-0 flex-grow flex-shrink md:flex-none'>
+                  <figure className="block relative">
+                     <a
+                        href={"/assets/img/villa-los-parques-5.webp"}
+                        className="block spotlight"
+                     >
+                        <picture>
+                           <source
+                              srcSet={"/assets/img/villa-los-parques-5.avif"}
+                              type='image/avif'
+                           />
+                           <source
+                              srcSet={"/assets/img/villa-los-parques-5.webp"}
+                              type='image/webp'
+                           />
+                           <img
+                              src={"/assets/img/villa-los-parques-5.png"}
                               width="100%"
                               alt="Ubicación del proyecto"
                            />
@@ -74,23 +118,24 @@ export const Galeria = () => {
                      </a>
                   </figure>
                </div>
+
                <div className='p-2 block basis-0 flex-grow flex-shrink md:flex-none'>
                   <figure className="block relative">
                      <a
-                        href={"..//assets/img/villa-los-parques-5.webp"}
+                        href={"/assets/img/villa-los-parques-4.webp"}
                         className="block spotlight"
                      >
                         <picture>
                            <source
-                              srcSet={"..//assets/img/villa-los-parques-5.avif"}
+                              srcSet={"/assets/img/villa-los-parques-4.avif"}
                               type='image/avif'
                            />
                            <source
-                              srcSet={"..//assets/img/villa-los-parques-5.webp"}
+                              srcSet={"/assets/img/villa-los-parques-4.webp"}
                               type='image/webp'
                            />
                            <img
-                              src={"..//assets/img/villa-los-parques-5.png"}
+                              src={"/assets/img/villa-los-parques-4.png"}
                               width="100%"
                               alt="Ubicación del proyecto"
                            />
@@ -98,54 +143,31 @@ export const Galeria = () => {
                      </a>
                   </figure>
                </div>
+
                <div className='p-2 block basis-0 flex-grow flex-shrink md:flex-none'>
                   <figure className="block relative">
                      <a
-                        href={"..//assets/img/villa-los-parques-4.webp"}
+                        href={"/assets/img/villa-los-parques-3.webp"}
                         className="block spotlight"
                      >
                         <picture>
                            <source
-                              srcSet={"..//assets/img/villa-los-parques-4.avif"}
+                              srcSet={"/assets/img/villa-los-parques-3.avif"}
                               type='image/avif'
                            />
                            <source
-                              srcSet={"..//assets/img/villa-los-parques-4.webp"}
+                              srcSet={"/assets/img/villa-los-parques-3.webp"}
                               type='image/webp'
                            />
                            <img
-                              src={"..//assets/img/villa-los-parques-4.png"}
+                              src={"/assets/img/villa-los-parques-3.png"}
                               width="100%"
                               alt="Ubicación del proyecto"
                            />
                         </picture>
                      </a>
                   </figure>
-               </div>
-               <div className='p-2 block basis-0 flex-grow flex-shrink md:flex-none'>
-                  <figure className="block relative">
-                     <a
-                        href={"..//assets/img/villa-los-parques-3.webp"}
-                        className="block spotlight"
-                     >
-                        <picture>
-                           <source
-                              srcSet={"..//assets/img/villa-los-parques-3.avif"}
-                              type='image/avif'
-                           />
-                           <source
-                              srcSet={"..//assets/img/villa-los-parques-3.webp"}
-                              type='image/webp'
-                           />
-                           <img
-                              src={"..//assets/img/villa-los-parques-3.png"}
-                              width="100%"
-                              alt="Ubicación del proyecto"
-                           />
-                        </picture>
-                     </a>
-                  </figure>
-               </div>
+               </div> */}
 
             </div>
 

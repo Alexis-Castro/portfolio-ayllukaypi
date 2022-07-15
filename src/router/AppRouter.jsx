@@ -1,12 +1,12 @@
 import { Routes, Route, Link } from "react-router-dom";
 import { Layout } from "../layout/Layout";
-import { ProyectosRoutes } from "../proyectos/routes/ProyectosRoutes";
+import { ProyectosRoutes } from "../proyectos";
 
 export const AppRouter = () => {
    return (
       <>
          <Routes>
-            <Route path="/" element={<Layout />} />
+            <Route index path="/" element={<Layout />} />
 
             <Route path="/*" element={<ProyectosRoutes />} />
             

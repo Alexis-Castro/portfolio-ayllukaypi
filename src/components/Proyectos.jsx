@@ -38,14 +38,14 @@ export const Proyectos = () => {
                         srcLogo={"/assets/img/logo-cyan-3.png"}
                         srcProyecto={"/assets/img/villa-los-parques-5.webp"}
                         texto={'Un proyecto ideal para tu casa de campo, rodeado de áreas verdes, considerada el "último bastión moche".'}
-                        ruta={"villa-los-parques"}
+                        ruta={"/villa-los-parques"}
                      />
 
                      <ProyectoItem 
                         srcLogo={"/assets/img/logo-cyan-3.png"}
                         srcProyecto={"/assets/img/villa-los-parques-4.webp"}
                         texto={'Un proyecto ubicado en una zona de gran expansión inmobiliaria, con cercanía a la histórica playa Naylamp'}
-                        ruta={"villa-ramsa"}
+                        ruta={"/villa-ramsa"}
                      />
                   </div>
                   <div className="flex justify-center">

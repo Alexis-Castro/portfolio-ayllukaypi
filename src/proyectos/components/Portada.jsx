@@ -39,7 +39,7 @@ export const Portada = ({ proyecto }) => {
                   <div className="block basis-0 flex-grow flex-shrink md:flex-none p-2">
                      <figure className='block z-20'>
                         <picture>
-                           <img src={"..//assets/img/logo-gris-2.png"} width="120" alt="logo" />
+                           <img src={"/assets/img/logo-gris-2.png"} width="120" alt="logo" />
                         </picture>
                      </figure>
                   </div>
