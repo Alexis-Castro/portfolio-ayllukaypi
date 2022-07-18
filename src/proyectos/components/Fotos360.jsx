@@ -5,15 +5,15 @@ export const Fotos360 = ({ archivoFoto }) => {
          <figure className='block relative'>
             <picture>
                <source
-                  srcSet={`/assets/img/${archivoFoto}.avif`}
+                  srcSet={`./assets/img/${archivoFoto}.avif`}
                   type='image/avif'
                />
                <source
-                  srcSet={`/assets/img/${archivoFoto}.webp`}
+                  srcSet={`./assets/img/${archivoFoto}.webp`}
                   type='image/webp'
                />
                <img
-                  src={`/assets/img/${archivoFoto}.png`}
+                  src={`./assets/img/${archivoFoto}.png`}
                   width="100%"
                   className='border-2'
                   alt="Ubicación del proyecto"

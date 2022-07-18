@@ -12,8 +12,14 @@ module.exports = {
       },
       backgroundImage: {
         'logo-page': "url('/assets/img/logos.svg')",
+        'ubicacion-page': "url('/assets/img/fachada.png')",
       }
     },
+    fontFamily: {
+      'roboto': ['Roboto', 'sans-serif'],
+      // 'serif': ['Inter var', 'serif'],
+      // 'monospace': ['Inter var', 'monospace'],
+    }
   },
   plugins: [],
 }

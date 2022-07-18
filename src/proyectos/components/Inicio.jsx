@@ -10,12 +10,12 @@ export const Inicio = ({ proyecto, frase, descripcion, id, archivo360 }) => {
          <Logos className={"left-16 grayscale -z-10"} />
          <div className="container mx-auto">
             <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none mb-12">
-               <h2 className='uppercase text-6xl font-bold text-azul-oscuro text-center'>
+               <h2 className='uppercase text-[4.2rem] tracking-tight leading-none font-bold text-azul-oscuro text-center'>
                   <span className='inline-block mr-2'>
-                     <img src={"/assets/img/triangulo.svg"} width="23" alt="" />
+                     <img src={"./assets/img/triangulo.svg"} width="25" alt="" />
                   </span>
                   {proyecto}
-                  <p className="text-4xl uppercase font-bold">{frase}</p>
+                  <p className="text-[2.6rem] uppercase font-bold">{frase}</p>
                </h2>
 
             </div>
@@ -45,7 +45,7 @@ export const Inicio = ({ proyecto, frase, descripcion, id, archivo360 }) => {
                {/* <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none">
                   <figure className='block relative'>
                      <picture>
-                        <img src={"/assets/img/villa-los-parques-5.webp"} width="100%" alt="" />
+                        <img src={"./assets/img/villa-los-parques-5.webp"} width="100%" alt="" />
 
                      </picture>
                   </figure>
@@ -53,7 +53,7 @@ export const Inicio = ({ proyecto, frase, descripcion, id, archivo360 }) => {
                <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none">
                   <figure className='block relative'>
                      <picture>
-                        <img src={"/assets/img/villa-los-parques-5.webp"} width="100%" alt="" />
+                        <img src={"./assets/img/villa-los-parques-5.webp"} width="100%" alt="" />
 
                      </picture>
                   </figure>
@@ -63,7 +63,7 @@ export const Inicio = ({ proyecto, frase, descripcion, id, archivo360 }) => {
             <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none">
                <p className='text-azul-claro uppercase font-bold text-xl'>
                   <span className='inline-block mr-2'>
-                     <img src={"/assets/img/triangulo.svg"} width="10" alt="" />
+                     <img src={"./assets/img/triangulo.svg"} width="10" alt="" />
                   </span>
                   <span>Fotos representativas 3D del proyecto</span>
                </p>

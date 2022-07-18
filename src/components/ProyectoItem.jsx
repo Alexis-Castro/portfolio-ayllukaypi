@@ -34,7 +34,7 @@ export const ProyectoItem = ({ srcLogo, srcProyecto, texto, ruta }) => {
                <div className="mb-4">
                   <figure>
                      <picture>
-                        <img src={"/assets/img/logo-cyan-3.png"} width="100%" alt="" />
+                        <img src={"./assets/img/logo-cyan-3.png"} width="100%" alt="" />
                      </picture>
                   </figure>
                </div>
@@ -45,7 +45,7 @@ export const ProyectoItem = ({ srcLogo, srcProyecto, texto, ruta }) => {
                   </p>
                   <figure>
                      <picture>
-                        <img src={"/assets/img/villa-los-parques-5.webp"} width="100%" alt="" />
+                        <img src={"./assets/img/villa-los-parques-5.webp"} width="100%" alt="" />
                      </picture>
                   </figure>
                </div>

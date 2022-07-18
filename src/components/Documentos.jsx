@@ -5,7 +5,7 @@ export const Documentos = () => {
    return (
       <>
          <Section className={"bg-gray-200 min-h-screen flex items-stretch flex-col justify-between"}>
-            <Logos className={"left-12"} />
+            <Logos className={"left-16"} />
 
             <div className="container mx-auto z-10">
                <div className='flex justify-end '>
@@ -13,7 +13,7 @@ export const Documentos = () => {
 
                      <div className='p-2 block basis-0 flex-grow flex-shrink md:flex-none'>
                         <picture>
-                           <img src={"/assets/img/logo-azul-2.png"} width="80" alt="logo" />
+                           <img src={"./assets/img/logo-azul-2.png"} width="80" alt="logo" />
                         </picture>
                      </div>
 
@@ -31,7 +31,7 @@ export const Documentos = () => {
 
                         <figure className="block relative">
                            <picture>
-                              <img src="/assets/img/logo-azul-2.png" alt="" width="150" />
+                              <img src="./assets/img/escritura.svg" alt="" width="150" />
                            </picture>
                         </figure>
                      </div>
@@ -43,7 +43,7 @@ export const Documentos = () => {
 
                         <figure className="block relative">
                            <picture>
-                              <img src="/assets/img/logo-azul-2.png" width="150" alt="" />
+                              <img src="./assets/img/escritura.svg" width="150" alt="" />
                            </picture>
                         </figure>
                      </div>
@@ -55,7 +55,7 @@ export const Documentos = () => {
 
                         <figure className="block relative">
                            <picture>
-                              <img src="/assets/img/logo-azul-2.png" width="150" alt="" />
+                              <img src="./assets/img/escritura.svg" width="150" alt="" />
                            </picture>
                         </figure>
                      </div>
@@ -66,7 +66,7 @@ export const Documentos = () => {
             <div className="p-2 flex justify-end z-10">
                <div className='flex items-center'>
                   <span className="inline-block mr-1">
-                     <img src="/assets/img/triangulo.svg" width="7" alt="triangulo" />
+                     <img src="./assets/img/triangulo.svg" width="7" alt="triangulo" />
                   </span>
                   <p className="font-medium text-azul-oscuro">Aquí hogar, aquí familia.</p>
                </div>

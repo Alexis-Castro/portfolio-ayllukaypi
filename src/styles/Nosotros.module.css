@@ -1,5 +1,5 @@
 .nosotros {
-   background-image: linear-gradient(to right, rgba(3, 3, 3, 0.3) 0%, rgba(3, 3, 3, 0.2)100%), url("../assets/img/hero-nosotros.webp");
+   background-image: linear-gradient(to right, rgba(3, 3, 3, 0.3) 0%, rgba(3, 3, 3, 0.2)100%), url("/assets/img/hero-nosotros.webp");
 
    background-size: cover;
    background-position: center;

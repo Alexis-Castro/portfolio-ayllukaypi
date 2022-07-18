@@ -3,14 +3,14 @@ import { Section } from './Section'
 export const Ubicacion = () => {
    return (
       <>
-         <Section className={"min-h-screen bg-cyan-100"}>
+         <Section className={"min-h-screen bg-cyan-100 "}>
             <div className="container mx-auto">
                <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none mb-16">
                   <div className='uppercase font-bold  text-center'>
-                     <h2 className='text-azul-oscuro text-[2.8rem] leading-none'>
+                     <h2 className='text-azul-oscuro text-[2.8rem] leading-none  tracking-tight mb-2'>
                         Para un asesoramiento más
                      </h2>
-                     <p className="text-azul-claro text-[2.7rem] leading-none">Personalizado, visítanos en:</p>
+                     <p className="text-azul-claro text-[2.7rem] leading-none  tracking-tight">Personalizado, visítanos en:</p>
 
                   </div>
                </div>
@@ -39,6 +39,12 @@ export const Ubicacion = () => {
                      </div>
                   </div>
                </div>
+
+               {/* <div className="block basis-0 flex-grow flex-shrink absolute left-0 right-0">
+                  <figure className="block">
+                     <img src="./assets/img/fachada.png" width="" alt="Ubicación" />
+                  </figure>
+               </div> */}
 
             </div>
          </Section>

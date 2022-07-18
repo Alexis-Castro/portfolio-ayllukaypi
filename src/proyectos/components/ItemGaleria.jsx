@@ -9,20 +9,20 @@ export const ItemGaleria = ({ nombreArchivo, width, height, alt }) => {
          <div className='p-2 block basis-0 flex-grow flex-shrink md:flex-none first:col-span-2'>
             <figure className="block relative">
                <a
-                  href={`/assets/img/${nombreArchivo}.webp`}
+                  href={`./assets/img/${nombreArchivo}.webp`}
                   className="block spotlight"
                >
                   <picture>
                      <source
-                        srcSet={`/assets/img/${nombreArchivo}.avif`}
+                        srcSet={`./assets/img/${nombreArchivo}.avif`}
                         type='image/avif'
                      />
                      <source
-                        srcSet={`/assets/img/${nombreArchivo}.webp`}
+                        srcSet={`./assets/img/${nombreArchivo}.webp`}
                         type='image/webp'
                      />
                      <img
-                        src={`/assets/img/${nombreArchivo}.png`}
+                        src={`./assets/img/${nombreArchivo}.png`}
                         width={width}
                         height={height}
                         alt={alt}
