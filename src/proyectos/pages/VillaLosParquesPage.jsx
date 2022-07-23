@@ -18,7 +18,10 @@ export const VillaLosParquesPage = () => {
 
       return (
          <>
-            <Portada proyecto={"Villa los Parques"} />
+            <Portada 
+               proyecto={"Villa los Parques"}
+               hero={"villa-parques"} 
+            />
    
             <Inicio
                proyecto={"Villa los Parques"}

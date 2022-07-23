@@ -1,14 +1,14 @@
 
 import { Link } from 'react-router-dom';
 
-export const ProyectoItem = ({ srcLogo, srcProyecto, texto, ruta }) => {
+export const ProyectoItem = ({ fileLogo, className, nombreImg, texto, ruta, alt }) => {
    return (
       <>
          <div className="">
             <div className="mb-4">
                <figure>
                   <picture>
-                     <img src={srcLogo} width="100%" alt="Logo Proyecto" />
+                     <img className={`${className}`} src={`./assets/img/${fileLogo}.svg`} width="100%" alt="Logo Proyecto" />
                   </picture>
                </figure>
             </div>
@@ -22,7 +22,9 @@ export const ProyectoItem = ({ srcLogo, srcProyecto, texto, ruta }) => {
                >
                   <figure>
                      <picture>
-                        <img src={srcProyecto} width="100%" alt="Proyecto" />
+                        <source srcSet={`./assets/img/${nombreImg}.avif`} type="image/avif" />
+                        <source srcSet={`./assets/img/${nombreImg}.webp`} type="image/webp" />
+                        <img className="h-56" loading="lazy" src={`./assets/img/${nombreImg}.png`} width="100%" height="100%" alt={alt} />
                      </picture>
                   </figure>
 

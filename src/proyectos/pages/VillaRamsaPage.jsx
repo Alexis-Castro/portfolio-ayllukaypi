@@ -17,7 +17,10 @@ export const VillaRamsaPage = () => {
 
       return (
          <>
-            <Portada proyecto={"Villa Ramsa"}/>
+            <Portada 
+               proyecto={"Villa Ramsa"}
+               hero={"villa-ramsa"}
+            />
    
             <Inicio 
                proyecto={"Villa Ramsa"} 
@@ -29,8 +32,8 @@ export const VillaRamsaPage = () => {
    
             <Caracteristicas
                proyecto={"Villa Ramsa"}
-               archivoMapa={"mapa-white"}
-               urlUbicacion={"https://maps.app.goo.gl/HQxNUHQgqhPpFgYf7"}
+               archivoMapa={"mapa-villa-ramsa"}
+               urlUbicacion={"https://goo.gl/maps/mYx63bwwm7sp8KFE6"}
             />
    
             <Galeria 

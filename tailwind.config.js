@@ -12,6 +12,8 @@ module.exports = {
       },
       backgroundImage: {
         'logo-page': "url('/assets/img/logos.svg')",
+        'corte-page': "url('/assets/img/corte.svg')",
+        'logo-cyan': "url('/assets/img/logos-cyan-transparent.svg')",
         'ubicacion-page': "url('/assets/img/fachada.png')",
       }
     },

@@ -1,11 +1,14 @@
 import { Logos } from "./Logos"
 import { Section } from "./Section"
+import styles from "../styles/Contacto.module.css"
+
+
 
 export const Contacto = () => {
    return (
       <>
-         <Section className={"min-h-screen flex items-stretch flex-col justify-between py-36 mb-8"}>
-            <Logos className={"left-16 -z-10"} />
+         <Section className={`${styles.contacto} min-h-screen flex items-stretch flex-col justify-between mb-8`}>
+            <Logos className={"left-16 -z-10 bg-logo-cyan"} />
 
             <div className="grow shrink-0">
                <div className="container mx-auto">
@@ -13,25 +16,25 @@ export const Contacto = () => {
                      <div className='font-bold text-azul-oscuro'>
                         <p className='text-2xl'>
                            <span className='inline-block mr-2'>
-                              <img src={"./assets/img/triangulo.svg"} width="7" alt="triangulo" />
+                              <img src={"./assets/img/triangulo.svg"} width="10" alt="triangulo" />
                            </span>
                            Contacta a tu asesor Ayllu Kaypi para que te indique los pasos a seguir, para una buena inversión inmobiliaria.
                         </p>
                      </div>
                   </div>
 
-                  <div className="flex items-center justify-center mb-10">
+                  <div className="flex items-center justify-center mb-10 gap-20">
                      <div className="p-2 block basis-0 flex-grow flex-shrink">
                         <figure className="block relative">
                            <picture>
-                              <img src="./assets/img/logo-cyan-3.png" width="100%" alt="Logo Proyecto" />
+                              <img src="./assets/img/villa-parques-logo.svg" width="100%" alt="Logo Proyecto" />
                            </picture>
                         </figure>
                      </div>
 
                      <div className="p-2 block basis-0 flex-grow flex-shrink">
                         <figure className="block relative">
-                           <img src="./assets/img/logo-cyan-3.png" width="100%" alt="Logo Proyecto" />
+                           <img src="./assets/img/villa-ramsa-logo.svg" width="100%" alt="Logo Proyecto" />
                         </figure>
                      </div>
                   </div>
@@ -44,10 +47,10 @@ export const Contacto = () => {
                                  Nuestros N° de cuentas bancarias
                               </p>
                            </div>
-                           <div className="p-3 text-justify font-bold border border-azul-claro flex items-center justify-between">
+                           <div className="p-3 px-10 text-justify font-bold border border-azul-claro flex items-center gap-x-32">
                               <div>
                                  <figure>
-                                    <img src="./assets/img/logo-cyan-3.png" width="160" alt="" />
+                                    <img src="./assets/img/bbva-logo.svg" width="100" alt="" />
                                  </figure>
                               </div>
                               <div className="text-azul-oscuro">
@@ -55,10 +58,10 @@ export const Contacto = () => {
                                  <p>011-0285-000100173124-47</p>
                               </div>
                            </div>
-                           <div className="p-3 font-bold border border-x-azul-claro flex items-center justify-between">
+                           <div className="p-3 px-10 font-bold border border-x-azul-claro flex items-center gap-x-24">
                               <div>
                                  <figure>
-                                    <img src="./assets/img/logo-cyan-3.png" width="160" alt="" />
+                                    <img src="./assets/img/interbank-logo.svg" width="130" alt="" />
                                  </figure>
                               </div>
                               <div className="text-azul-oscuro">
@@ -66,10 +69,10 @@ export const Contacto = () => {
                                  <p>003-700-00300313751622</p>
                               </div>
                            </div>
-                           <div className="p-3 font-bold border border-azul-claro flex items-center justify-between">
+                           <div className="p-3 px-10 font-bold border border-azul-claro flex items-center gap-x-[6.6rem]">
                               <div>
                                  <figure>
-                                    <img src="./assets/img/logo-cyan-3.png" width="160" alt="" />
+                                    <img src="./assets/img/bcp-logo.svg" width="120" alt="" />
                                  </figure>
                               </div>
                               <div className="text-azul-oscuro">
@@ -77,7 +80,7 @@ export const Contacto = () => {
                                  <p>00230500984143706015</p>
                               </div>
                            </div>
-                           <div className="py-3 px-10 font-bold border border-azul-claro bg-azul-claro">
+                           <div className="py-3 px-10 px-10 font-bold border border-azul-claro bg-azul-claro">
                               <div className="flex text-sm items-center justify-between">
                                  <p className="text-azul-oscuro">
                                     Razón Social: AK Inversiones y Servicios S.A.C 

@@ -1,16 +1,45 @@
-.header {
-   background-image: linear-gradient(to right, rgba(3, 3, 3, 0.3) 0%, rgba(3, 3, 3, 0.2)100%), url("/assets/img/hero-image3.webp");
-
+.header,
+.villa-parques,
+.villa-ramsa {
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
-   /* height: 100%; */
-
-   /* align-items: stretch;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between; */
-
-   /* clip-path: polygon(0 0, 100% 0, 100% 90%, 25% 90%, 25% 100%, 0 75%); */
-   /* clip-path: polygon(0 0, 100% 0%, 100% 90%, 90% 100%, 90% 90%, 0 90%); */
 }
+
+.header {
+   background-image: url("/assets/img/portada-1-logos.jpg");
+   background-image: image-set(
+      url("/assets/img/portada-1-logos.avif") 1x,
+      url("/assets/img/portada-1-logos.webp") 1x,
+      url("/assets/img/portada-1-logos.jpg") 1x
+   );
+}
+
+.villa-parques {
+   background-image: url("/assets/img/los-parques-2.jpg");
+   background-image: image-set(
+      url("/assets/img/los-parques-2.avif") 1x,
+      url("/assets/img/los-parques-2.webp") 1x,
+      url("/assets/img/los-parques-2.jpg") 1x
+   );
+}
+
+.villa-ramsa {
+   background-image: url("/assets/img/villa-ramsa-1.jpg");
+   background-image: image-set(
+      url("/assets/img/villa-ramsa-1.avif") 1x,
+      url("/assets/img/villa-ramsa-1.webp") 1x,
+      url("/assets/img/villa-ramsa-1.jpg") 1x
+   );
+}
+
+.header::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.2);
+}
+

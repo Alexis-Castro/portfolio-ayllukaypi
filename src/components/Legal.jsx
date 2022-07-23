@@ -1,14 +1,14 @@
-import { Logos } from './Logos'
 import { Section } from './Section'
+import styles from "../styles/Legal.module.css"
+
 
 export const Legal = () => {
    return (
       <>
-         <Section className={`min-h-screen bg-slate-50`}>
-            <Logos className={"left-[42%] "} />
+         <Section className={`${styles.legal} min-h-screen`}>
 
             <div className="container mx-auto relative">
-               <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none mb-24 mt-20">
+               <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none mb-20 mt-10">
                   <div className='uppercase font-bold text-azul-oscuro text-center'>
                      <h2 className='text-7xl  tracking-tight'>
                         Para formalizar
@@ -19,7 +19,7 @@ export const Legal = () => {
 
                </div>
 
-               <div className="flex items-center justify-center mb-24">
+               <div className="flex items-center justify-center mb-20">
                   <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none w-2/12">
                      <figure className="block relative">
                         <picture>
@@ -43,8 +43,8 @@ export const Legal = () => {
 
                </div>
 
-               <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none mb-48">
-                  <div className='uppercase font-bold text-azul-oscuro text-center'>
+               <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none mb-[20rem]">
+                  <div className='uppercase font-bold text-azul-oscuro text-center leading-tight'>
                      <h2 className='text-5xl'>
                         Te otorgamos...
                      </h2>

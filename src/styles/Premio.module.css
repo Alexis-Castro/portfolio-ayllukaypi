@@ -1,0 +1,12 @@
+.premio {
+   background-image: url("/assets/img/reconocimiento.jpg");
+   background-image: image-set(
+      url("/assets/img/reconocimiento.avif") 1x,
+      url("/assets/img/reconocimiento.webp") 1x,
+      url("/assets/img/reconocimiento.jpg") 1x
+   );
+
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}

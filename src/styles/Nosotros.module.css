@@ -1,8 +1,22 @@
 .nosotros {
-   background-image: linear-gradient(to right, rgba(3, 3, 3, 0.3) 0%, rgba(3, 3, 3, 0.2)100%), url("/assets/img/hero-nosotros.webp");
+   /* background-image: linear-gradient(to right, rgba(3, 3, 3, 0.3) 0%, rgba(3, 3, 3, 0.2)100%), url("/assets/img/hero-nosotros.webp"); */
 
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
    height: 50vh;
+}
+
+.premios {
+   background-image: url("/assets/img/premios.jpg");
+   background-image: image-set(
+      url("/assets/img/premios.avif") 1x,
+      url("/assets/img/premios.webp") 1x,
+      url("/assets/img/premios.jpg") 1x
+   );
+
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   /* min-height: calc(100vh + 5rem); */
 }

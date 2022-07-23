@@ -7,7 +7,7 @@ export const Inicio = ({ proyecto, frase, descripcion, id, archivo360 }) => {
 
    return (
       <Section className={`min-h-screen mb-8`}>
-         <Logos className={"left-16 grayscale -z-10"} />
+         <Logos className={"left-16 bg-logo-cyan -z-10"} />
          <div className="container mx-auto">
             <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none mb-12">
                <h2 className='uppercase text-[4.2rem] tracking-tight leading-none font-bold text-azul-oscuro text-center'>

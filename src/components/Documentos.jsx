@@ -1,11 +1,11 @@
-import { Logos } from './Logos'
 import { Section } from './Section'
+import styles from "../styles/Documentos.module.css"
+
 
 export const Documentos = () => {
    return (
       <>
-         <Section className={"bg-gray-200 min-h-screen flex items-stretch flex-col justify-between"}>
-            <Logos className={"left-16"} />
+         <Section className={`${styles.documentos} min-h-screen flex items-stretch flex-col justify-between`}>
 
             <div className="container mx-auto z-10">
                <div className='flex justify-end '>
@@ -20,7 +20,7 @@ export const Documentos = () => {
                   </div>
                </div>
             </div>
-
+{/* 
             <div className="items-center flex shrink-0 z-10">
                <div className="container mx-auto">
                   <div className="flex items-center justify-center font-bold text-azul-oscuro uppercase text-2xl text-center">
@@ -61,7 +61,7 @@ export const Documentos = () => {
                      </div>
                   </div>
                </div>
-            </div>
+            </div> */}
 
             <div className="p-2 flex justify-end z-10">
                <div className='flex items-center'>

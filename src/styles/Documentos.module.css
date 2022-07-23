@@ -1,0 +1,14 @@
+.documentos {
+   background-image: url("/assets/img/papeles.jpg");
+   background-image: image-set(
+      url("/assets/img/papeles.avif") 1x,
+      url("/assets/img/papeles.webp") 1x,
+      url("/assets/img/papeles.jpg") 1x
+   );
+
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+
