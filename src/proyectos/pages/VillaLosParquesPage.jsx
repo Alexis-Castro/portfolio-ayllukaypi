@@ -27,17 +27,22 @@ export const VillaLosParquesPage = () => {
                proyecto={"Villa los Parques"}
                frase={"El paraíso verde que mereces"}
                descripcion={'Un proyecto ideal para tu casa de campo, rodeado de áreas verdes, considerado el "último bastión moche".'}
-               id={"qWbvm8kpfTs"}
-               archivo360={"villa-los-parques-5"}
+               principal={"villa-parques-3d"}
+               archivos3D={["villa-los-parques-3d-1", "villa-los-parques-3d-2"]}
             />
    
             <Caracteristicas
                proyecto={"Villa los Parques"}
                archivoMapa={"mapa-white"}
                urlUbicacion={"https://maps.app.goo.gl/HQxNUHQgqhPpFgYf7"}
+               features={
+                  ["169 lotes habilitados para casas en zona turística y campestre.", "Parques recreativos y áreas verdes.", "Servicios básicos: Luz (posteado) y agua (matriz troncal).", "Contrato de compra/venta, minuta y escritura pública en 24 horas."]
+                  
+               }
             />
    
-            <Galeria 
+            <Galeria
+               titulo={"A un paso de la ciudad turística de Mórrope"}
                fotos={data}
                   
             />

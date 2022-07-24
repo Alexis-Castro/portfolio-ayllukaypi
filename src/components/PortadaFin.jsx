@@ -13,7 +13,7 @@ export const PortadaFin = () => {
                      <figure className="block relative ml-4">
                         <img
                            src={`./assets/img/logo-cyan-2.png`}
-                           width="180"
+                           width="200"
                            // height="80"
                            alt="Ubicación del proyecto"
                         />

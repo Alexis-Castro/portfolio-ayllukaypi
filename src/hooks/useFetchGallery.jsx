@@ -18,7 +18,7 @@ export const useFetchGallery = ( archivoJson = "villa-los-parques" ) => {
                loading: false,
             });
          })
-         // .catch( err => console.log(err) )
+         .catch( err => console.log(err) )
          // .finally( () => setGaleria({ loading: false }) )
    }, [])
 

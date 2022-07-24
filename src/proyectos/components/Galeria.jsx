@@ -4,24 +4,24 @@ import "spotlight.js";
 import { Link } from 'react-router-dom';
 import { ItemGaleria } from './ItemGaleria';
 
-export const Galeria = ({ fotos }) => {
+export const Galeria = ({ titulo, fotos }) => {
 
    // console.log(fotos);
 
    return (
       <Section className={"min-h-screen"}>
-         <Logos className={"left-16 grayscale -z-10"} />
+         <Logos className={"left-16 bg-logo-cyan z-10"} />
 
          <div className="container mx-auto">
             <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none mb-12">
-               <div className="uppercase font-bold text-center">
-                  <p className='text-azul-oscuro text-4xl'>
-                     <span className='inline-block mr-2'>
-                        <img src={"./assets/img/triangulo.svg"} width="15" alt="" />
+               <div className="uppercase font-bold text-center ">
+
+                  <p className='text-azul-oscuro text-5xl tracking-tight'> 
+                     <span className='inline-flex mr-2'>
+                        <img src={"./assets/img/triangulo.svg"} width="18" alt="" />
                      </span>
-                     Cerca al centro turístico
+                     {titulo}
                   </p>
-                  <p className='text-azul-oscuro text-4xl'>gastronómico y cultural de Lambayeque</p>
                </div>
 
             </div>
@@ -30,7 +30,7 @@ export const Galeria = ({ fotos }) => {
             <div className="grid grid-cols-2 ">
 
                {
-                  fotos.map(({ nombreArchivo, width, height, alt} , key) => {
+                  fotos.map(({ nombreArchivo, width, height, alt }, key) => {
                      return (
                         <ItemGaleria
                            key={key}

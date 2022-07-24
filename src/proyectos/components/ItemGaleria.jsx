@@ -22,7 +22,7 @@ export const ItemGaleria = ({ nombreArchivo, width, height, alt }) => {
                         type='image/webp'
                      />
                      <img
-                        src={`./assets/img/${nombreArchivo}.png`}
+                        src={`./assets/img/${nombreArchivo}.jpg`}
                         width={width}
                         height={height}
                         alt={alt}

@@ -1,10 +1,10 @@
 .rentabilidad {
-   background-image: url("/assets/img/publicidad-logos.jpg");
-   background-image: image-set(
+   background-image: url("/assets/img/publicidad-logos.webp");
+   /* background-image: image-set(
       url("/assets/img/publicidad-logos.avif") 1x,
       url("/assets/img/publicidad-logos.webp") 1x,
       url("/assets/img/publicidad-logos.jpg") 1x
-   );
+   ); */
 
    background-size: cover;
    background-position: center;
@@ -12,12 +12,12 @@
 
 }
 .inversion {
-   background-image: url("/assets/img/publicidad-2.jpg");
-   background-image: image-set(
+   background-image: url("/assets/img/publicidad-2.webp");
+   /* background-image: image-set(
       url("/assets/img/publicidad-2.avif") 1x,
       url("/assets/img/publicidad-2.webp") 1x,
       url("/assets/img/publicidad-2.jpg") 1x
-   );
+   ); */
 
    background-size: cover;
    background-position: center;

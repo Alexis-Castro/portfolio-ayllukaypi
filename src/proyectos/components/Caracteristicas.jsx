@@ -2,10 +2,11 @@ import { Logos } from '../../components/Logos'
 import { Section } from '../../components/Section'
 import { ListItem } from './ListItem'
 
-export const Caracteristicas = ({ proyecto, archivoMapa, urlUbicacion }) => {
+export const Caracteristicas = ({ proyecto, archivoMapa, urlUbicacion, features }) => {
+
    return (
       <Section className={"min-h-screen mb-8"}>
-         <Logos className={"left-16 grayscale -z-10"} />
+         <Logos className={"left-16 -z-10 bg-logo-cyan"} />
 
          <div className="container mx-auto">
             <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none mb-12">
@@ -23,10 +24,13 @@ export const Caracteristicas = ({ proyecto, archivoMapa, urlUbicacion }) => {
                <div className='p-2 block basis-0 flex-grow flex-shrink md:flex-none mb-8'>
                   <div className="">
                      <ul className='mb-5'>
-                        <ListItem description="285 lotes habilitados para casas en el campo y camino a la playa." />
-                        <ListItem description={`Lotes desde 90m2 hasta 200m2`} />
-                        <ListItem description="Servicios de luz (posteado) y Agua (Matriz Troncal) Habilitados en el proyecto." />
-                        <ListItem description="Contrato de compra/venta, con minuta y escritura pública." />
+                        {
+                           features.map((feature, key) => {
+                              return (
+                                 <ListItem key={key} description={feature} />
+                              )
+                           })
+                        }
                      </ul>
                   </div>
                </div>

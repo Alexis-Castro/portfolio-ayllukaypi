@@ -1,10 +1,10 @@
 .ubicacion {
-   background-image: url("/assets/img/fachada.jpg");
-   background-image: image-set(
+   background-image: url("/assets/img/fachada.webp");
+   /* background-image: image-set(
       url("/assets/img/fachada.avif") 1x,
       url("/assets/img/fachada.webp") 1x,
       url("/assets/img/fachada.jpg") 1x
-   );
+   ); */
 
    background-size: cover;
    background-position: center;

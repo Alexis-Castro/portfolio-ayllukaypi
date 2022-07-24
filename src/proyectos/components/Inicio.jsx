@@ -1,9 +1,12 @@
 import { Logos } from '../../components/Logos';
 import { Section } from '../../components/Section';
 import { Fotos360 } from './Fotos360';
-import { VideoYT } from './VideoYT';
+import "spotlight.js";
 
-export const Inicio = ({ proyecto, frase, descripcion, id, archivo360 }) => {
+
+export const Inicio = ({ proyecto, frase, principal, descripcion, archivos3D }) => {
+
+   // console.log(archivos3D);
 
    return (
       <Section className={`min-h-screen mb-8`}>
@@ -22,11 +25,31 @@ export const Inicio = ({ proyecto, frase, descripcion, id, archivo360 }) => {
 
             <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none mb-5">
                <figure className='block relative mb-1'>
-                  <VideoYT id={id}/>
+                  <a
+                     href={`./assets/img/${principal}.webp`}
+                     className="block spotlight"
+                  >
+                     <picture>
+                        <source
+                           srcSet={`./assets/img/${principal}.avif`}
+                           type='image/avif'
+                        />
+                        <source
+                           srcSet={`./assets/img/${principal}.webp`}
+                           type='image/webp'
+                        />
+                        <img
+                           src={`./assets/img/${principal}.jpg`}
+                           width={"100%"}
+                           height={"100%"}
+                           alt={proyecto}
+                        />
+                     </picture>
+
+                  </a>
+                  {/* <VideoYT id={id}/> */}
                </figure>
-               <div className='bg-azul-oscuro p-2'>
-                  <p className='text-gray-200 text-right'>Dale un vistazo a este video y conoce más sobre el proyecto...</p>
-               </div>
+
             </div>
 
             <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none mb-5">
@@ -36,11 +59,11 @@ export const Inicio = ({ proyecto, frase, descripcion, id, archivo360 }) => {
             </div>
 
             <div className="grid grid-cols-2 mb-5">
-               <Fotos360 
-                  archivoFoto={archivo360}
+               <Fotos360
+                  archivoFoto={archivos3D[0]}
                />
-               <Fotos360 
-                  archivoFoto={archivo360}
+               <Fotos360
+                  archivoFoto={archivos3D[1]}
                />
                {/* <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none">
                   <figure className='block relative'>

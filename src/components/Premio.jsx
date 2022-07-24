@@ -38,10 +38,10 @@ export const Premio = () => {
             <div className="container mx-auto">
                <div className="p-2 flex ">
                   <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none">
-                     <figure className="block relative ml-8">
+                     <figure className="block relative ml-10">
                         <img
                            src={`./assets/img/logo-gris-2.png`}
-                           width="80"
+                           width="90"
                            // height="80"
                            alt="Ubicación del proyecto"
                         />
