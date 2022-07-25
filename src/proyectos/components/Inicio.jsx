@@ -1,7 +1,8 @@
 import { Logos } from '../../components/Logos';
 import { Section } from '../../components/Section';
-import { Fotos360 } from './Fotos360';
+import { Fotos3D } from './Fotos3D';
 import "spotlight.js";
+import { Corte } from '../../components/Corte';
 
 
 export const Inicio = ({ proyecto, frase, principal, descripcion, archivos3D }) => {
@@ -11,7 +12,7 @@ export const Inicio = ({ proyecto, frase, principal, descripcion, archivos3D }) 
    return (
       <Section className={`min-h-screen mb-8`}>
          <Logos className={"left-16 bg-logo-cyan -z-10"} />
-         <div className="container mx-auto">
+         <div className="container mx-auto mb-5">
             <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none mb-12">
                <h2 className='uppercase text-[4.2rem] tracking-tight leading-none font-bold text-azul-oscuro text-center'>
                   <span className='inline-block mr-2'>
@@ -59,40 +60,25 @@ export const Inicio = ({ proyecto, frase, principal, descripcion, archivos3D }) 
             </div>
 
             <div className="grid grid-cols-2 mb-5">
-               <Fotos360
+               <Fotos3D
                   archivoFoto={archivos3D[0]}
                />
-               <Fotos360
+               <Fotos3D
                   archivoFoto={archivos3D[1]}
                />
-               {/* <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none">
-                  <figure className='block relative'>
-                     <picture>
-                        <img src={"./assets/img/villa-los-parques-5.webp"} width="100%" alt="" />
-
-                     </picture>
-                  </figure>
-               </div>
-               <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none">
-                  <figure className='block relative'>
-                     <picture>
-                        <img src={"./assets/img/villa-los-parques-5.webp"} width="100%" alt="" />
-
-                     </picture>
-                  </figure>
-               </div> */}
             </div>
 
             <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none">
                <p className='text-azul-claro uppercase font-bold text-xl'>
                   <span className='inline-block mr-2'>
-                     <img src={"./assets/img/triangulo.svg"} width="10" alt="" />
+                     <img src={"./assets/img/triangulo.svg"} width="10" alt="Adorno" />
                   </span>
                   <span>Fotos representativas 3D del proyecto</span>
                </p>
             </div>
 
          </div>
+         <Corte />
       </Section>
    )
 }

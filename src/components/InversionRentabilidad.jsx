@@ -27,17 +27,15 @@ export const InversionRentabilidad = () => {
             </div>
 
             <div className="container mx-auto">
-               <div className="p-2 flex justify-end z-10">
-                  <div className="flex items-center justify-between">
-                     <div className='p-2 block basis-0 flex-grow flex-shrink md:flex-none'>
-                        <figure className="block relative">
-                           <picture>
-                              <img className="mr-6" src="./assets/img/logo-gris-2.png" width="100" alt="Ayllu Kaypi" />
-                           </picture>
-                        </figure>
-                     </div>
-
+               <div className="flex items-center justify-end">
+                  <div className='p-2 block basis-0 flex-grow flex-shrink md:flex-none w-1/6 mr-6'>
+                     <figure className="block relative">
+                        <picture>
+                           <img className="" src="./assets/img/logo-gris-2.png" width="80" alt="Ayllu Kaypi" />
+                        </picture>
+                     </figure>
                   </div>
+
                </div>
             </div>
          </Section>
@@ -79,8 +77,8 @@ export const InversionRentabilidad = () => {
             <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none w-1/2">
                <div className="container mx-auto">
 
-                  <div className='p-2 block basis-0 flex-grow flex-shrink md:flex-none w-2/3 ml-10'>
-                     <figure className="block relative ml-10">
+                  <div className='p-2 block basis-0 flex-grow flex-shrink md:flex-none w-2/3 ml-20'>
+                     <figure className="block relative">
                         <picture>
                            <img src="./assets/img/logo-gris-2.png" width="100" alt="" />
                         </picture>

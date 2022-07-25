@@ -27,16 +27,16 @@ export const Portada = ({ proyecto, hero }) => {
                   <div className="block basis-0 flex-grow flex-shrink md:flex-none p-2">
                      <p className='text-white'>
                         <span className='inline-block mr-2'>
-                           <img src={"./assets/img/triangulo.svg"} width="7" alt="" />
+                           <img src={"./assets/img/triangulo.svg"} width="7" alt="Adorno" />
                         </span>
                         Aquí hogar, Aquí familia
                      </p>
                   </div>
 
-                  <div className="block basis-0 flex-grow flex-shrink md:flex-none p-2 mr-10">
+                  <div className="block basis-0 flex-grow flex-shrink md:flex-none p-2 mr-11">
                      <figure className='block z-20'>
                         <picture>
-                           <img src={"./assets/img/logo-gris-2.png"} width="80" alt="logo" />
+                           <img src={"./assets/img/logo-gris-2.png"} width="70" alt="logo" />
                         </picture>
                      </figure>
                   </div>

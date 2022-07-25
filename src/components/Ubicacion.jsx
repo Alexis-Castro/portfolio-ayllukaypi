@@ -5,9 +5,9 @@ import styles from "../styles/Ubicacion.module.css"
 export const Ubicacion = () => {
    return (
       <>
-         <Section className={`${styles.ubicacion} py-24`}>
+         <Section className={`${styles.ubicacion} min-h-screen `}>
             <div className="container mx-auto">
-               <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none mb-10">
+               <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none mb-8">
                   <div className='uppercase font-bold  text-center z-10'>
                      <h2 className='text-azul-oscuro text-[2.8rem] leading-none tracking-tight mb-2'>
                         Para un asesoramiento más
@@ -17,7 +17,7 @@ export const Ubicacion = () => {
                   </div>
                </div>
 
-               <div className="flex items-center justify-center mb-10">
+               <div className="flex items-center justify-center mb-8">
                   <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none w-2/3">
                      <div className='font-bold text-center'>
                         <p className='text-azul-oscuro text-3xl'>

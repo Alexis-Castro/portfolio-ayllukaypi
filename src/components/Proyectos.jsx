@@ -32,13 +32,13 @@ export const Proyectos = () => {
                </div>
             </Section>
 
-            <Section>
+            <Section className={"pt-10"}>
                <div className="container mx-auto">
                   <div className="grid grid-cols-2 gap-8 mb-10 items-baseline">
                      {/* Proyecto-item */}
                      <ProyectoItem
                         fileLogo={"villa-parques-logo"}
-                        nombreImg={"villa-los-parques-5"}
+                        nombreImg={"villa-parques-3d"}
                         texto={'Un proyecto ideal para tu casa de campo, rodeado de áreas verdes, considerada el "último bastión moche".'}
                         ruta={"/villa-los-parques"}
                         alt={'Villa Los Parques'}

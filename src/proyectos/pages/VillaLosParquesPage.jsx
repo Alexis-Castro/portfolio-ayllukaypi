@@ -37,7 +37,6 @@ export const VillaLosParquesPage = () => {
                urlUbicacion={"https://maps.app.goo.gl/HQxNUHQgqhPpFgYf7"}
                features={
                   ["169 lotes habilitados para casas en zona turística y campestre.", "Parques recreativos y áreas verdes.", "Servicios básicos: Luz (posteado) y agua (matriz troncal).", "Contrato de compra/venta, minuta y escritura pública en 24 horas."]
-                  
                }
             />
    

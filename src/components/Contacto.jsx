@@ -1,6 +1,7 @@
 import { Logos } from "./Logos"
 import { Section } from "./Section"
 import styles from "../styles/Contacto.module.css"
+import { Corte } from "./Corte"
 
 
 
@@ -12,7 +13,7 @@ export const Contacto = () => {
 
             <div className="grow shrink-0">
                <div className="container mx-auto">
-                  <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none mb-20">
+                  <div className="p-2 block basis-0 flex-grow flex-shrink md:flex mb-20 ">
                      <div className='font-bold text-azul-oscuro'>
                         <p className='text-2xl'>
                            <span className='inline-block mr-2'>
@@ -80,7 +81,7 @@ export const Contacto = () => {
                                  <p>00230500984143706015</p>
                               </div>
                            </div>
-                           <div className="py-3 px-10 px-10 font-bold border border-azul-claro bg-azul-claro">
+                           <div className="py-3 px-10 font-bold border border-azul-claro bg-azul-claro">
                               <div className="flex text-sm items-center justify-between">
                                  <p className="text-azul-oscuro">
                                     Razón Social: AK Inversiones y Servicios S.A.C 
@@ -112,6 +113,7 @@ export const Contacto = () => {
 
             </div>
 
+            <Corte />
          </Section>
       </>
    )

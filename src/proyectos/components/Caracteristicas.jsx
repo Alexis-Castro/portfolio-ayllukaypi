@@ -1,3 +1,4 @@
+import { Corte } from '../../components/Corte'
 import { Logos } from '../../components/Logos'
 import { Section } from '../../components/Section'
 import { ListItem } from './ListItem'
@@ -8,7 +9,7 @@ export const Caracteristicas = ({ proyecto, archivoMapa, urlUbicacion, features 
       <Section className={"min-h-screen mb-8"}>
          <Logos className={"left-16 -z-10 bg-logo-cyan"} />
 
-         <div className="container mx-auto">
+         <div className="container mx-auto mb-12">
             <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none mb-12">
                <div className="flex items-center justify-between uppercase  font-bold">
                   <p className='text-azul-claro -rotate-90 -ml-8 text-5xl'>Este</p>
@@ -79,6 +80,8 @@ export const Caracteristicas = ({ proyecto, archivoMapa, urlUbicacion, features 
             </div>
 
          </div>
+         <Corte />
+
       </Section>
    )
 }

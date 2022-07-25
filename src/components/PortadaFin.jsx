@@ -1,3 +1,4 @@
+import { Corte } from "./Corte"
 import { Logos } from "./Logos"
 import { Section } from "./Section"
 
@@ -51,7 +52,7 @@ export const PortadaFin = () => {
 
                            </div>
                            <div className="font-bold">
-                              <a href="https://www.instagram.com/ayllukaypi/" target="_blank" className="block" rel="noopener noreferrer">
+                              <a href="https://www.facebook.com/ayllukaypi" target="_blank" className="block" rel="noopener noreferrer">
                                  @ayllukaypi
                               </a>
 
@@ -74,7 +75,7 @@ export const PortadaFin = () => {
                </div>
             </div>
 
-            <div className="container mx-auto">
+            <div className="container mx-auto mb-5">
                <div className="p-2 flex justify-end">
                   <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none">
                      <p className="font-medium text-white">
@@ -86,6 +87,8 @@ export const PortadaFin = () => {
                   </div>
                </div>
             </div>
+
+            <Corte />
 
          </Section>
       </>

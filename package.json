@@ -13,6 +13,7 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-image-lightbox": "^5.1.4",
+    "react-lazy-load-image-component": "^1.5.5",
     "react-lite-youtube-embed": "^2.2.2",
     "react-router-dom": "6",
     "spotlight.js": "^0.7.8"

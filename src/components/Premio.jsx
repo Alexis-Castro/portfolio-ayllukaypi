@@ -38,7 +38,7 @@ export const Premio = () => {
             <div className="container mx-auto">
                <div className="p-2 flex ">
                   <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none">
-                     <figure className="block relative ml-10">
+                     <figure className="block relative ml-7">
                         <img
                            src={`./assets/img/logo-gris-2.png`}
                            width="90"
