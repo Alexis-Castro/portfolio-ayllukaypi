@@ -17,6 +17,7 @@ export const VillaRamsaPage = () => {
 
       return (
          <>
+            
             <Portada 
                proyecto={"Villa Ramsa"}
                hero={"villa-ramsa"}
@@ -42,7 +43,7 @@ export const VillaRamsaPage = () => {
             />
    
             <Galeria
-               titulo={"A un paso de la ciudad turística de Mórrope"}
+               titulo={"Cerca al centro turístico gastronómico y cultural de Lambayeque"}
                fotos={data}
             />
          </>

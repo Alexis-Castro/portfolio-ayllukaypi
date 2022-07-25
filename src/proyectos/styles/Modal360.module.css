@@ -1,0 +1,16 @@
+.modal {
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   overflow: hidden;
+   position: fixed;
+   z-index: 40;
+}
+
+/* .modal .is-active {
+   display: flex;
+} */
+
+.modal-background {
+   background-color: rgba(10, 10, 10, 0.86);
+}

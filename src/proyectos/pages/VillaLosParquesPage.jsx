@@ -18,6 +18,10 @@ export const VillaLosParquesPage = () => {
 
       return (
          <>
+
+            {/* <div className="">
+               <iframe src="https://ayllukaypi.pe/files/360/villa-los-parques" className="min-h-screen" width="100%" height="100%"></iframe>
+            </div> */}
             <Portada 
                proyecto={"Villa los Parques"}
                hero={"villa-parques"} 
@@ -45,6 +49,8 @@ export const VillaLosParquesPage = () => {
                fotos={data}
                   
             />
+
+
    
          </>
       )

@@ -25,11 +25,11 @@
 }
 
 .villa-ramsa {
-   background-image: url("/assets/img/villa-ramsa-1.jpg");
+   background-image: url("/assets/img/portada-ramsa.jpg");
    background-image: image-set(
-      url("/assets/img/villa-ramsa-1.avif") 1x,
-      url("/assets/img/villa-ramsa-1.webp") 1x,
-      url("/assets/img/villa-ramsa-1.jpg") 1x
+      url("/assets/img/portada-ramsa.avif") 1x,
+      url("/assets/img/portada-ramsa.webp") 1x,
+      url("/assets/img/portada-ramsa.jpg") 1x
    );
 }
 
