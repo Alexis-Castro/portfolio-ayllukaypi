@@ -45,26 +45,6 @@ export const ProyectoItem = ({ fileLogo, className, nombreImg, texto, ruta, alt 
             </div>
          </div>
 
-         {/* <div className="">
-               <div className="mb-4">
-                  <figure>
-                     <picture>
-                        <img src={"./assets/img/logo-cyan-3.png"} width="100%" alt="" />
-                     </picture>
-                  </figure>
-               </div>
-
-               <div className="">
-                  <p className="text-2xl mb-14 text-justify">
-                     Un proyecto ubicado en una zona de gran expansión inmobiliaria, con cercanía a la histórica playa Naylamp.
-                  </p>
-                  <figure>
-                     <picture>
-                        <img src={"./assets/img/villa-los-parques-5.webp"} width="100%" alt="" />
-                     </picture>
-                  </figure>
-               </div>
-            </div> */}
       </>
    )
 }

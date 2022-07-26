@@ -139,7 +139,7 @@ export const Inicio = ({ proyecto, frase, principal, descripcion, archivos3D }) 
                   </div>
          
                   <button
-                     className="text-white w-full md:w-auto md:first:mb-0 bg-azul-oscuro rounded-lg text-sm px-4 py-1.5 text-center uppercase font-bold shadow-lg transition-transform duration-200 hover:scale-105 md:text-lg first:mb-3 flex items-center absolute top-20 right-0 z-[500]"
+                     className="text-white w-full md:w-auto md:first:mb-0 bg-azul-oscuro rounded-lg text-sm px-4 py-1.5 text-center font-bold shadow-lg transition-transform duration-200 hover:scale-105 md:text-lg first:mb-3 flex items-center absolute top-20 right-3 z-[500]"
                      id="close-360"
                      aria-label="close"
                      onClick={() => setShowModal(false)}
