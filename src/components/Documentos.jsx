@@ -20,7 +20,21 @@ export const Documentos = () => {
                   </div>
                </div>
             </div>
-{/* 
+
+            <div className="w-5/6 mx-auto z-10 absolute top-[34%]">
+               <div className='flex items-center justify-between text-2xl text-center'>
+                  <div className='p-2 block basis-0 flex-grow flex-shrink md:flex-none ml-14'>
+                     <p className='uppercase text-azul-oscuro font-black font-roboto'>Minuta</p>
+                  </div>
+                  <div className='p-2 block basis-0 flex-grow flex-shrink md:flex-none ml-5'>
+                     <p className='uppercase text-azul-oscuro font-black font-roboto'>Contrato de <br /> Compra/Venta</p>
+                  </div>
+                  <div className='p-2 block basis-0 flex-grow flex-shrink md:flex-none mr-5'>
+                     <p className='uppercase text-azul-oscuro font-black font-roboto'>Escritura <br /> Pública</p>
+                  </div>
+               </div>
+            </div>
+            {/* 
             <div className="items-center flex shrink-0 z-10">
                <div className="container mx-auto">
                   <div className="flex items-center justify-center font-bold text-azul-oscuro uppercase text-2xl text-center">

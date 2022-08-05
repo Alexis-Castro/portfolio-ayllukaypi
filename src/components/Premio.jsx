@@ -6,7 +6,7 @@ import styles from "../styles/Premio.module.css"
 export const Premio = () => {
    return (
       <>
-         <Section className={`${styles.premio} min-h-screen flex items-stretch flex-col justify-between mb-8`}>
+         <Section className={`${styles.premio} min-h-screen flex items-stretch flex-col justify-between`}>
             <Logos className={"left-16"} />
 
             <div className="container mx-auto z-10">

@@ -5,7 +5,11 @@ import styles from "../styles/Ubicacion.module.css"
 export const Ubicacion = () => {
    return (
       <>
-         <Section className={`${styles.ubicacion} min-h-screen `}>
+         <a href='https://maps.app.goo.gl/s7ab1x39gMTHMKB78' 
+            rel="noopener noreferrer"
+            target="_blank" 
+            className={`${styles.ubicacion} lg:px-14 lg:py-28 px-14 py-14 relative min-h-screen block`}
+         >
             <div className="container mx-auto">
                <div className="p-2 block basis-0 flex-grow flex-shrink md:flex-none mb-8">
                   <div className='uppercase font-bold  text-center z-10'>
@@ -51,7 +55,7 @@ export const Ubicacion = () => {
                </div> */}
 
             </div>
-         </Section>
+         </a>
       </>
    )
 }

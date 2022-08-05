@@ -7,7 +7,7 @@ import { Corte } from "./Corte"
 export const Proyectos = () => {
    return (
       <>
-         <div className='relative min-h-screen pb-24'>
+         <section className='relative min-h-screen pb-24'>
             <Logos className={"left-16 bg-logo-cyan"} />
 
             <Section className={`${styles.proyectos} pb-24`}>
@@ -34,8 +34,8 @@ export const Proyectos = () => {
 
             <Section className={"pt-10"}>
                <div className="container mx-auto">
-                  <div className="grid grid-cols-2 gap-8 mb-10 items-baseline">
-                     {/* Proyecto-item */}
+                  <div className="flex gap-8 mb-10 items-baseline relative">
+
                      <ProyectoItem
                         fileLogo={"villa-parques-logo"}
                         nombreImg={"villa-parques-3d"}
@@ -53,6 +53,7 @@ export const Proyectos = () => {
                         alt={'Villa Ramsa'}
                         className={'p-4'}
                      />
+                     
                   </div>
                   
                   <div className="flex justify-center">
@@ -71,7 +72,7 @@ export const Proyectos = () => {
             </Section>
 
             <Corte className={"mb-6"}/>
-         </div>
+         </section>
 
       </>
    )
